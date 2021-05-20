@@ -26,7 +26,12 @@ print("numere impare")
 odd_list = sorted_list[::2]
 print(odd_list)
 
-
+print("%3")
+mul3 = [];
+for x in my_list:
+    if x % 3 == 0:
+        mul3.append(x)
+print(mul3)
 
 
 
